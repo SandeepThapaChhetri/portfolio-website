@@ -33,7 +33,8 @@ I'm a Computer Engineering student at the Institute of Engineering, Thapathali C
 ├── js/                 # JavaScript libraries and main.js
 ├── images/             # Site images and project screenshots
 ├── fonts/              # Icon fonts (Flaticon, IcoMoon, Ionicons)
-└── Sandeep_Thapa_CV.pdf
+└── assets/
+    └── Sandeep_Thapa_CV.pdf
 ```
 
 ## Getting Started
