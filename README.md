@@ -36,7 +36,7 @@ applications, analyzing data, and designing clean, user-friendly interfaces.
 
 ## 🌐 Live Demo
 
-> _Live URL will be added here once the site is deployed._
+https://www.sandeepthapa108.com.np/
 
 ## 🧩 Sections
 
