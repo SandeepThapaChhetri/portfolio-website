@@ -96,14 +96,16 @@ This is a static site — no build step is required to view it.
 
 ## ☁️ Deployment
 
-Being a static site, it can be hosted on any static host:
+This site is deployed using:
 
-- **Netlify / Vercel / GitHub Pages** — connect this repository for automatic
-  deploys on every push.
-- **Traditional hosting (cPanel/FTP)** — upload the project contents into
-  `public_html`.
-
-Enable HTTPS (free via Let's Encrypt on most hosts) after pointing your domain.
+- **GitHub Pages** — hosts the static site directly from this repository,
+  redeploying automatically on every push (see the `CNAME` file for the custom
+  domain).
+- **Cloudflare** — manages DNS and sits in front of GitHub Pages for HTTPS/SSL,
+  caching, and CDN performance.
+- **Domain (.com.np)** — [sandeepthapa108.com.np](https://www.sandeepthapa108.com.np/)
+  registered through a `.com.np` registrar, with nameservers pointed to
+  Cloudflare and a `CNAME` record pointing to GitHub Pages.
 
 ## 📬 Contact
 
