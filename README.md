@@ -73,9 +73,16 @@ sandeep-thapa-portfolio/
 ├── fonts/              # Icon fonts (Flaticon, IcoMoon, Ionicons)
 ├── assets/
 │   └── Sandeep_Thapa_CV.pdf
-├── prepros-6.config    # Prepros build configuration
+├── CNAME               # GitHub Pages custom domain (must stay at root)
+├── prepros-6.config    # Prepros build configuration (must stay at root)
+├── .gitignore          # Git ignore rules (scoped from the repo root)
 └── README.md
 ```
+
+> **Note:** `CNAME`, `prepros-6.config`, and `.gitignore` live at the repo root
+> by requirement, not by accident — GitHub Pages, Prepros, and Git all expect
+> to find them there, so they can't be moved into a subfolder without breaking
+> the custom domain, the build config paths, or the ignore rules.
 
 ## 🚀 Getting Started
 
